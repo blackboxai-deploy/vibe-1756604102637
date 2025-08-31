@@ -1,0 +1,14 @@
+{
+  "adminCredentials": {
+    "username": "admin",
+    "password": "admin123"
+  },
+  "rateLimit": {
+    "requestsPerMinute": 100,
+    "windowMs": 60000
+  },
+  "security": {
+    "sessionSecret": "your-super-secret-session-key-here",
+    "allowedOrigins": ["*"]
+  }
+}
